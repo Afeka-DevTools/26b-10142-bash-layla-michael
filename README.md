@@ -6,7 +6,7 @@ TEAM MEMBERS:
 
 MICHAEL'S SCRIPTS:
 1. check_internet.sh - Checks internet connectivity via ping.
-2. env_vars.sh - Prints system environment variables (PATH and PWD).
+2. user_info.sh - Displays current user details and information.
 3. weather.sh - Fetches and displays current weather for Tel Aviv.
 4. count_stats.sh - Scans files and prints line, word, and character counts.
 5. system_uptime.sh - Displays system uptime and exact boot time.

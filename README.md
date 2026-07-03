@@ -30,7 +30,11 @@ cd 26b-10142-bash-layla-michael
 chmod +x scripts/*.sh
 
 4. EXECUTE THE SCRIPTS:
-Run the scripts directly from the root directory. For example:
+Run the scripts directly from the root directory:
+.scripts/check_internet.sh
+.scripts/user_info.sh
 ./scripts/weather.sh
+./scripts/count_stats.sh
+./scripts/system_uptime.sh
 
 INPUT NOTE: Michael's scripts run independently and do not require any additional user input or arguments during execution.

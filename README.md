@@ -48,4 +48,9 @@ Run the scripts directly from the root directory:
 * ./scripts/system_uptime.sh
 
 
-INPUT NOTE: Michael's scripts run independently and do not require any additional user input or arguments during execution.
+INPUT NOTE:
+
+* Michael's scripts run independently and do not require any additional user input or arguments during execution.
+* Layla's 'sort_test.sh' requires a file named 'test.txt' to be present in the execution directory.
+* Layla's 'battery_status.sh' may not return a value if run on a Virtual Machine without a configured battery (BAT0).
+

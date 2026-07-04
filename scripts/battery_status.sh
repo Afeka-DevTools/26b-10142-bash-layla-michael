@@ -1,2 +1,7 @@
 #!/bin/bash
-upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep percentage
+if upower -e | grep -q 'BAT'; then
+    upower -i $(upower -e | grep 'BAT') | grep percentage
+else
+    echo "Battery information not available on this system."
+    exit 0
+fi
